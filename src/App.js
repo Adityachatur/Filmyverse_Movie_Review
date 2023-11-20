@@ -13,12 +13,11 @@ const AppState = createContext();
 const App = () => {
   const [login, setLogin] = useState(false); // Use useState in a functional component
   const [UserName, setUserName] = useState("");
-  const [logout, setlogout] = useState(false);
 
 
 
   return (
-    <AppState.Provider value={{ login, setLogin, UserName, setUserName, logout, setlogout }}>
+    <AppState.Provider value={{ login, setLogin, UserName, setUserName }}>
       <div>
         <Header />
 

@@ -10,6 +10,7 @@ img{
     height: 75vh;
 }
 
+
 @media screen and (max-width: 750px) {
     img{
         height: 200px;
